@@ -2,7 +2,7 @@
 
 # Light table 
 
-Light table for film scan
+Light table for [dslr film scan](http://natephotographic.com/dslr-film-scanning-perfect-color-negatives/)
 
 ![view](https://user-images.githubusercontent.com/3332506/101624341-7fa8cc80-3a22-11eb-9bd2-80a6ed0ec9c0.jpg)
 
