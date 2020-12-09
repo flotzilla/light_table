@@ -1,3 +1,5 @@
+[![MIT License][license-shield]][license-url]
+
 # Light table 
 
 Light table for film scan
@@ -6,7 +8,7 @@ Light table for film scan
 
 [Description and assembling](https://lazy-tech.net/article/dslr_film_scanning)
 
-Parts:
+#### Parts:
 * Arduino nano
 * 2 x 18650 batteries
 * 18650 holder
