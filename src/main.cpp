@@ -15,17 +15,16 @@ using namespace std;
 void noActionHandler()
 { /** no action **/
 }
+
 void pixelsUpdateState(); /** will be reimplemented **/
 void analogUpdate(); 
 
-// NeoLight pixels(NUMPIXELS, LED_PIN, NEO_RGB + NEO_KHZ800, &pixelsUpdateState);
 Adafruit_NeoPixel pixels(NUMPIXELS, LED_PIN, NEO_GRB + NEO_KHZ800);
 AnalogButtonHandler analogReader(POTENTIOMETER_PIN, 50, &analogUpdate, &noActionHandler);
 
 void setBrightness(int brig)
 {
   pixels.setBrightness(brig);
-  // pixels.show();
 }
 
 void setup() {
@@ -38,8 +37,6 @@ void setup() {
 
 void loop() {
     unsigned long currentMillis = millis();
-    // analogReader.Update(currentMillis);
-    // pixels.Update();
 
     for(int i=0; i<NUMPIXELS; i++) { 
       pixels.setPixelColor(i, pixels.Color(255, 255, 255));
@@ -66,10 +63,3 @@ void analogUpdate()
   setBrightness(brightness);
   Serial.println(brightness);
 }
-
-// void pixelsUpdateState()
-// {
-//   unsigned long currentMillis = millis();
-//   analogReader.Update(currentMillis);
-// }
-
