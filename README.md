@@ -4,7 +4,7 @@ Light table for film scan
 
 ![view](https://user-images.githubusercontent.com/3332506/101624341-7fa8cc80-3a22-11eb-9bd2-80a6ed0ec9c0.jpg)
 
-[See](https://lazy-tech.net/article/dslr_film_scanning)
+[Description and assembling](https://lazy-tech.net/article/dslr_film_scanning)
 
 Parts:
 * Arduino nano
