@@ -21,3 +21,6 @@ Light table for film scan
 * m3 screw and nut
 
 [Printable parts](https://www.thingiverse.com/thing:4679855)
+
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
+[license-url]: https://github.com/flotzilla/light_table/blob/main/LICENSE
